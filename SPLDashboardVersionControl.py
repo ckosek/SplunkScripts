@@ -30,7 +30,7 @@ password = args.SPLpass
 #AllFlag = 0
 Changed = 0
 
-searchQuery = '| rest /servicesNS/-/-/data/ui/views | where LIKE(\'author\',"%@papajohns.com") | where !LIKE(\'eai:acl.sharing\',"user") | table title,updated,eai:data,author'
+searchQuery = '| rest /servicesNS/-/-/data/ui/views | where LIKE(\'author\',"%@company.com") | where !LIKE(\'eai:acl.sharing\',"user") | table title,updated,eai:data,author'
 
 # Authenticate with server.
 # Disable SSL cert validation. Splunk certs are self-signed.
